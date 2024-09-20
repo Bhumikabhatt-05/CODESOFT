@@ -1,18 +1,77 @@
-## Getting Started
+# Java Projects
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A collection of Java projects including a Number Game, Student Grade Calculator, ATM Interface, and Currency Converter.
 
-## Folder Structure
+## Table of Contents
 
-The workspace contains two folders by default, where:
+- [Number Game](#number-game)
+- [Student Grade Calculator](#student-grade-calculator)
+- [ATM Interface](#atm-interface)
+- [Currency Converter](#currency-converter)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Number Game
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A fun number guessing game where users try to guess a randomly generated number within a limited number of attempts.
 
-## Dependency Management
+### Features
+- User-friendly console interface
+- Random number generation
+- Attempt tracking
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### How to Run
+```bash
+javac NumberGame.java
+java NumberGame
+
+##Student Grade Calculator
+A tool that calculates and displays student grades based on input scores.
+
+###Features
+Input scores for multiple subjectsGrade calculation based on predefined criteria
+Output of final grades and feedback
+
+###How to Run
+javac GradeCalculator.java
+java GradeCalculator
+
+##ATM Interface
+A simulated ATM interface that allows users to perform basic banking operations such as checking balance, depositing, and withdrawing money.
+
+###Features
+User authentication
+Balance inquiry 
+Deposit and withdrawal functionality
+
+###How to Run
+javac ATMInterface.java
+java ATMInterface
+
+##Currency Converter
+A simple application that converts amounts between different currencies based on current exchange rates.
+
+###Features
+Supports multiple currencies
+User-friendly input and output
+
+###How to Run
+javac CurrencyConverter.java
+java CurrencyConverter
+
+##Installation
+
+###Clone the repository:
+git clone
+https://github.com/username/repository.git 
+
+###Navigate to the project directory:
+cd repository
+
+##Usage
+For each project, follow the instructions under "How to Run" to compile and execute the Java files.
+
+##Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
