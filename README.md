@@ -69,7 +69,7 @@ java CurrencyConverter
 
 ### Clone the repository:
 git clone
-https://github.com/username/repository.git 
+https://github.com/Bhumikabhatt-05/CODESOFT.git 
 
 ### Navigate to the project directory:
 cd repository
